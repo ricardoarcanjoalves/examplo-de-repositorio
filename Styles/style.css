@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Raleway:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+strong{
+    color: #22D4FD;
+}
+
+.container{
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 82px;
+}
+
+.container_conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2.25rem;
+    font-family: "Krona One", sans-serif;
+    margin-bottom: 40px;
+}
+
+p{
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.links{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+
+}
+
+h3{
+    font-size: 1.25rem;
+    font-family: "Krona One", sans-serif;
+}
+
+.links_corpo{
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    padding: 22px 0; 
+    text-decoration: none;
+    color: white;
+    border: 2px solid #22D4FD;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.links_corpo:hover{
+    background-color: #272727;
+    width: 400px;
+}
+
+header{
+    padding: 3% 0% 0% 10%;
+}
+
+.menu{
+    display: flex;
+    gap: 80px;
+}
+
+.links_menu{
+    color: #22D4FD;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.56rem;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #22D4FD;
+    text-align: center;
+    padding: 1.56rem;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+.img-principal{
+    width: 50%;
+}
+
+@media (max-width: 950px) {
+
+    .container{
+        padding: 8%;
+        flex-direction: column-reverse;
+    }
+
+    header{
+        padding: 10%;
+    }
+
+    .menu{
+        justify-content: center;
+    }
+
+    .container_conteudo{
+        width: auto;
+    }
+}
